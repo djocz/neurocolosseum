@@ -1,0 +1,38 @@
+# ── LangGraph + LangChain ──────────────────
+langgraph==0.2.74
+langchain==0.3.25
+langchain-core==0.3.51
+
+# ── Provider packages ──────────────────────
+# Install ONLY what you need
+# All are optional — see .env.example
+
+langchain-anthropic==0.3.10      # Claude models
+langchain-openai==0.2.14         # GPT models + Azure
+langchain-groq==0.2.4            # Llama via Groq (free)
+# langchain-google-genai==2.0.8  # Gemini via API
+# langchain-google-vertexai==2.0.8 # Gemini via Vertex
+# langchain-mistralai==0.2.4     # Mistral models
+# langchain-cohere==0.3.4        # Cohere models
+# langchain-fireworks==0.2.4     # Fireworks models
+# langchain-together==0.2.0      # Together AI models
+# langchain-huggingface==0.1.2   # HuggingFace models
+# langchain-ollama==0.2.1        # Local models (free)
+# langchain-aws==0.2.10          # AWS Bedrock models
+# langchain-xai==0.2.0           # Grok models
+# langchain-perplexity==0.1.0    # Perplexity models
+
+# ── Environment ────────────────────────────
+python-dotenv==1.0.1
+pydantic==2.10.6
+pydantic-settings==2.7.1
+
+# ── Web interface ───────────────────────────
+streamlit==1.43.2
+
+# ── Terminal interface ──────────────────────
+pyfiglet==1.0.2
+colorama==0.4.6
+
+# ── Utilities ──────────────────────────────
+requests==2.32.3

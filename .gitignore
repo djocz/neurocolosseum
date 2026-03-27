@@ -1,0 +1,35 @@
+# ── Secrets ────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Python cache ───────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# ── Virtual environment ─────────────────────
+venv/
+env/
+.venv/
+
+# ── Debate outputs ──────────────────────────
+outputs/*.md
+outputs/archive/*.md
+!outputs/.gitkeep
+!outputs/archive/.gitkeep
+
+# ── Logs ───────────────────────────────────
+logs/
+*.log
+
+# ── Mac ────────────────────────────────────
+.DS_Store
+
+# ── IDE ────────────────────────────────────
+.vscode/
+.idea/
+*.swp
